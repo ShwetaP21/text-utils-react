@@ -1,9 +1,13 @@
 import React from 'react';
+import Navbar from '../Components/Navbar';
 
 const  About = ()=> {
   return (
     <>
-    <p>Heeloooooo</p>
+    <Navbar/>
+    <div className="container d-flex justify-content-center">
+      <h1>About Us</h1>
+    </div>
     </>
   )
 }
